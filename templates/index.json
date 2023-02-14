@@ -116,7 +116,7 @@
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "classic-leather-jacket",
             "second_image": false
           }
         },
