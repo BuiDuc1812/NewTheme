@@ -35,30 +35,10 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-    },
-    "fc860e55-c320-4591-be9b-9ce6191e12e1": {
-      "type": "test",
-      "settings": {
-        "title": "Example heading",
-        "desciption": "<p>Example descriádasdafasfption<\/p>",
-        "button_label": "Button",
-        "Button_link": ""
-      }
-    },
-    "5f9a8486-9dae-4412-9a20-283923100024": {
-      "type": "test",
-      "settings": {
-        "title": "Example heading",
-        "desciption": "<p>Example description<\/p>",
-        "button_label": "ádasfasfs",
-        "Button_link": "shopify:\/\/products\/black-leather-bag"
-      }
     }
   },
   "order": [
     "announcement-bar",
-    "header",
-    "fc860e55-c320-4591-be9b-9ce6191e12e1",
-    "5f9a8486-9dae-4412-9a20-283923100024"
+    "header"
   ]
 }
