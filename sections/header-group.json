@@ -35,10 +35,20 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "fc860e55-c320-4591-be9b-9ce6191e12e1": {
+      "type": "test",
+      "settings": {
+        "title": "Example heading",
+        "desciption": "<p>Example descriádasdafasfption<\/p>",
+        "button_label": "Button",
+        "Button_link": ""
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "fc860e55-c320-4591-be9b-9ce6191e12e1"
   ]
 }
