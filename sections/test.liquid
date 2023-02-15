@@ -1,9 +1,12 @@
 <section class="container py-5">
   <div class="row">
     <div class="col-lg-6 col-md-5 mx-auto">
-      <h1>Example</h1>
-      <p>This is an example description</p>
-      <a role="button" href="#">Shop now</a>
+      <h1>{{ section.settings.title }}</h1>
+      <p>{{ section.settings.description }}</p>
+      <a
+        class="btn btn-primary"
+        role="button"
+        href="{{ section.settings.Button_link }}">{{ section.setting.button_label }}</a>
     </div>
   </div>
 </section>
