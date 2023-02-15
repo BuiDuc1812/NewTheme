@@ -239,6 +239,7 @@
 
   </head>
   <body class="gradient-{{ request.page_type | handle }}">
+    {% comment %} {{ content_for_index }} {% endcomment %}
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
