@@ -35,10 +35,18 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "bd11a144-0949-4669-8b5c-b80f7437477e": {
+      "type": "test2",
+      "settings": {
+        "featured_collection": "nam",
+        "title": "Example descripsadasdtion"
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "bd11a144-0949-4669-8b5c-b80f7437477e"
   ]
 }
