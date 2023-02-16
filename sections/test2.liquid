@@ -1,6 +1,10 @@
 <section class="container py-5">
   {% for product in collections[section.settings.featured_collection].products %}
-        
+        <div class="card">
+            <h3 class="heading">{{ product.title }}</h3>
+            <p>{{ product.price }}</p>
+            <p>{{ product.quantity }}</p>
+        </div>
   {% endfor %}
 </section>
 {% schema %}
