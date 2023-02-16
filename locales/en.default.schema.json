@@ -2234,6 +2234,15 @@
               "label": "Third heading"
             }
           }
+        },
+        "checked":{
+          "name":"checked",
+          "settings":{
+              "type":"text",
+              "id":"textest",
+              "defaults":"hom nau chiu",
+              "label":"heading"
+          }
         }
       },
       "settings": {
