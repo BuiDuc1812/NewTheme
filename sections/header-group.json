@@ -35,20 +35,10 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-    },
-    "9b23d1f0-5704-442c-ad99-f9d7dd060fbf": {
-      "type": "test",
-      "settings": {
-        "title": "Example headingqưeqwe",
-        "desciption": "<p>Example descriptionưeqw<\/p>",
-        "button_label": "Button checkfdssd",
-        "Button_link": "shopify:\/\/blogs\/news\/choose-style-for-you"
-      }
     }
   },
   "order": [
     "announcement-bar",
-    "header",
-    "9b23d1f0-5704-442c-ad99-f9d7dd060fbf"
+    "header"
   ]
 }
