@@ -5,6 +5,9 @@
             <p>{{ product.price }}</p>
             <p>{{ product.quantity }}</p>
         </div>
+        <script>
+            console.log({{ product | json }})
+        </script>
   {% endfor %}
 </section>
 {% schema %}
