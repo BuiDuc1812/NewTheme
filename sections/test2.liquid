@@ -1,12 +1,7 @@
 <section class="container py-5">
-  <div class="row">
-    <div class="col-lg-6 col-md-5 mx-auto">
-      <h1>{{ section.settings.title }}</h1>
-      {{ section.settings.desciption }}
-      <a style="border: 1px solid black; padding:12px 24px;"
-        href="{{ section.settings.Button_link }}">{{ section.settings.button_label }}</a>
-    </div>
-  </div>
+  {% for product in collections[section.settings.featured_collection].products %}
+        
+  {% endfor %}
 </section>
 {% schema %}
   {
