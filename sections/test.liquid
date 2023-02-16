@@ -10,24 +10,34 @@
 </section>
 {% schema %}
   {
-    "name": "Featured",
-    "class": "feature-test",
+    "name": "hero",
+    "class": "hero section",
     "settings": [
       {
-        "type": "collection",
-        "id": "testfdgsn",
-        "lable": "collection"
+        "type": "text",
+        "id": "title",
+        "default": "Example heading",
+        "label": "Heading Title"
+      }, {
+        "type": "richtext",
+        "id": "desciption",
+        "default": "<p>Example description</p>",
+        "label": "Heading description"
       }, {
         "type": "text",
-        "id": "test1",
-        "default": "default collection",
-        "lable": "title"
+        "id": "button_label",
+        "default": "Button check",
+        "label": "Button label"
+      }, {
+        "type": "url",
+        "id": "Button_link",
+        "label": "Button link"
       }
     ],
     "presets": [
       {
-        "category": "collection",
-        "name": "Feature test collection"
+        "category": "hero",
+        "name": "Hero"
       }
     ]
   }
