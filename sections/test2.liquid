@@ -1,20 +1,20 @@
 <section>
-  {% for product in collection[section.settings.feature_collection].products %}
+  {% for product in collections[section.settings.testfdgsn].products %}
     <p>{{ product.title }}</p>
   {% endfor %}
 </section>
 {% schema %}
   {
-    "name": "Featured Collection",
-    "class": "feature-collection",
+    "name": "Featured",
+    "class": "feature-test",
     "settings": [
       {
         "type": "collection",
-        "id": "feature_collection",
+        "id": "testfdgsn",
         "lable": "collection"
       }, {
         "type": "text",
-        "id": "title",
+        "id": "test1",
         "default": "default collection",
         "lable": "title"
       }
