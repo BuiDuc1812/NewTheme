@@ -1,3 +1,8 @@
+<section>
+  {% for product in collection[section.settings.feature_collection].products %}
+    {{ product.title }}
+  {% endfor %}
+</section>
 {% schema %}
   {
     "name": "Featured Collection",
@@ -17,7 +22,7 @@
     "presets": [
       {
         "category": "collection",
-        "name": "Feature :3"
+        "name": "Feature test collection"
       }
     ]
   }
